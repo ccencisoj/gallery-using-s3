@@ -1,0 +1,33 @@
+{
+  "name": "gallery-using-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config -r express-async-errors ./src/index.js",
+    "start": "node -r dotenv/config -r express-async-errors ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1069.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.17.2",
+    "formidable": "^2.0.1",
+    "ip": "^1.1.5",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "nanoid": "^3.2.0",
+    "query-string": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
